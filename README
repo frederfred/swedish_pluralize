@@ -1,0 +1,13 @@
+swedish_pluralize
+=========
+ 
+Swedish pluralize inflections taken from swe_rails plugin by Ola Bini. The plugin is downsized to fit our needs at Newsdesk, so it's possible the swe_rails plugin will suit your needs better. Look for it on GitHub. This is for pluralization only.
+
+It adds an string inflector: String#swedish_pluralize.
+
+Installation
+=========
+
+Grab the plugin:
+ 
+./script/plugin install git://github.com/newsdesk/swedish_pluralize.git
