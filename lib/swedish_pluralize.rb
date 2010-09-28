@@ -46,7 +46,7 @@ module SwedishPluralize
     i.singular /lar$/i, '' # bil, bilar
 
     # declination 3 -er
-    i.singular /([tnslp])er$/i, '\1' # produkt, produkter
+    i.singular /([tmnslpr])er$/i, '\1' # produkt, produkter
     i.singular /ler$/i, 'el' # muskel, muskler
 
     # declination 4 -r
