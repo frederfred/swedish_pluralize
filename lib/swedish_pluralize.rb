@@ -10,7 +10,7 @@ module SwedishPluralize
     i.plural /l$/i, 'lar' # bil, bilar
 
     # declination 3 -er
-    i.plural /([tnslp])$/i, '\1er' # produkt, produkter
+    i.plural /([tmnslpr])$/i, '\1er' # produkt, produkter
     i.plural /kel$/i, 'kler' # muskel, muskler
     i.plural /tel$/i, 'tlar' # titel, titlar
 
@@ -46,7 +46,7 @@ module SwedishPluralize
     i.singular /lar$/i, '' # bil, bilar
 
     # declination 3 -er
-    i.singular /([tnslp])er$/i, '\1' # produkt, produkter
+    i.singular /([tmnslpr])er$/i, '\1' # produkt, produkter
     i.singular /ler$/i, 'el' # muskel, muskler
 
     # declination 4 -r

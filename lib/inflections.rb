@@ -1,4 +1,4 @@
-module ActiveSupport::CoreExtensions::String::Inflections
+class String
   def swedish_pluralize
     return self if self.blank?
     SwedishPluralize.pluralize(self)
